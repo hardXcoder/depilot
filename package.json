@@ -1,0 +1,39 @@
+{
+  "name": "depilot",
+  "displayName": "DePilot",
+  "description": "Experience seamless collaboration with DePilot, your decentralized partner in navigation. Empowering users with real-time insights and autonomous assistance, it's the ultimate fusion of technology and teamwork, revolutionizing how you navigate the digital landscape",
+  "publisher": "DePilot",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "depilot.helloWorld",
+      "title": "Hello World"
+    }]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.86.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hardxcoder/depilot.git"
+  }
+}
