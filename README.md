@@ -47,6 +47,6 @@ Depilot is licensed under the MIT License. See [LICENSE](LICENSE) for more infor
 
 ## Contact
 
-If you have any questions or feedback, feel free to contact the maintainer at [your.email@example.com](mailto:your.email@example.com).
+If you have any questions or feedback, feel free to contact the maintainer at [ujjwal451@gmail.com](mailto:ujjwal451@gmail.com).
 
 Happy coding with Depilot!
